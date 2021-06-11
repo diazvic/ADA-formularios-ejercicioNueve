@@ -13,12 +13,11 @@ body{
 }
 
 section{
-    /* border: 1px solid violet; */
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 100px;
-    width: 1000px;
+    width: 1100px;
     background-color: #ffffff;
     border: none;
     border-radius: 3px;
@@ -27,31 +26,30 @@ div{
     color: #F90C63;
 }
 .box-uno{
-    /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 170px;
+    border-right: 3px solid #DFE9E9;
 }
 .box-dos{
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 170px;
+    border-right: 3px solid #DFE9E9;
 }
 .box-tres{
-    /* border: 1px solid yellow; */
     display: flex;
     flex-direction: column;
     width: 150px;
+    border-right: 3px solid #DFE9E9;
 }
 .box-cuatro{
-    /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
     width: 80px;
+    border-right: 3px solid #DFE9E9;
 }
 .box-cinco{
-    /* border: 1px solid orange; */
     width: 200px;
 }
 .texto, .fecha{
